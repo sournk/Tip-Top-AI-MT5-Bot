@@ -6,10 +6,15 @@ Task source: [mq5.com/freelance](https://www.mql5.com/en/job/206738/discussion?i
 I agree to create EA only for $30 for spec bellow. Only deadline for this deal is 30.10.23.
 
 Short spec:
-1. The bot checks current day candle using "tail length detection algorithm" (see AI code) to detect entry point.
-2. The bot opens an order then entry point detected in trend way using color of current day candle (red - sell, green - buy).
-3. Lot size, TP, SL are the bot settings.
-4. Open order count is the bot setting with max count of orders opened
+☑ 1. The bot checks current day candle using "tail length detection algorithm" (see AI code) to detect entry point.
+
+☑  2. The bot opens an order then entry point detected in trend way using color of current day candle (red - sell, green - buy).
+- But this algorithm doesn't detect a trend as you show on the picture. Trading with a trend and the proposed AI algorithm are different ways to enter a trade. 
+That's why I suggest using the AI algorithm, although it doesn't guarantee that all trades will be in line with the D1 timeframe trend.
+
+☑ 3. Lot size, TP, SL are the bot settings.
+☑ 4. Open order count is the bot setting with max count of orders opened
+☑ 5. EXTRA FEATURE FOR FREE. Setting of max order count opened inside on bar. That's useful to prevent opening orders one by one inside.
 
 ## AI Entry Point Detection Algorithm
 
